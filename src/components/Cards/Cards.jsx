@@ -12,7 +12,7 @@ const Cards = ({ data: { confirmed, recovered, deaths, lastUpdate } }) => {
   }
   return (
     <div className={styles.container}>
-      <Grid container spacing={3} justify="center">
+      <Grid container spacing={1} justify="center">
         <Grid item xs={12} md={3} component={Card} className={cx(styles.card, styles.infected)}>
           <CardContent>
             <Typography className={styles.typographySub}>

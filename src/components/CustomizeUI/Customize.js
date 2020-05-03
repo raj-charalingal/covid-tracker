@@ -5,7 +5,7 @@ import { makeStyles } from '@material-ui/core/styles';
 
 export const useStyles =makeStyles((theme) => ({
     root: {
-      flexGrow: 1,
+      flexGrow: 2,
     }
     
     /* paper_typography1 : {
