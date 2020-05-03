@@ -17,6 +17,15 @@
     
   }
 
+  .card:hover {
+    
+    box-shadow: inset -2px -2px 8px rgba(255, 255, 255, .5),
+    inset -2px -2px 12px rgba(255, 255, 255, 0.5),
+    inset 2px 2px 4px rgba(255, 255, 255, 0.1),
+    inset 2px 2px 8px rgba(0, 0, 0, 0.15) !important;
+    transform: scale(1.2);
+}
+
   .typographyMain {
       margin: 5% !important;
       font-family: 'Ubuntu', sans-serif !important;
