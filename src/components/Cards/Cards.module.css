@@ -1,0 +1,48 @@
+@import url('https://fonts.googleapis.com/css?family=Ubuntu&display=swap');
+
+.container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin: 50px 0;
+    
+    
+}
+
+.card {
+    width: 100% !important;
+    margin: 0 2% !important;
+    background-color: #222430 !important;
+    box-shadow: -10px -20px 20px 0px rgba(255,255,255,0.05), 10px 10px 20px 0px rgba(0,0,0,0.4) !important;
+    border-radius: 10% !important;
+  }
+
+  .typographyMain {
+      margin: 5% !important;
+      font-family: 'Ubuntu', sans-serif !important;
+      font-size: 35px !important;    
+  }
+  .typographySub {
+    margin: 4% !important;
+    font-size: medium;
+    color: #fff !important;
+    font-family: 'Ubuntu', sans-serif !important;
+  } 
+  .infected {
+   /*  border-bottom: 10px solid rgba(0, 0, 255, 0.5); */
+    color: #FFA500 !important; 
+  
+ 
+  }
+  
+  .recovered{
+   /*  border-bottom: 10px solid rgba(0, 255, 0, 0.5); */
+   color:#09f911 !important; 
+  }
+  
+  .deaths{
+    /* border-bottom: 10px solid rgba(255, 0, 0, 0.5); */
+    color: #d40000 !important; 
+    
+  }
+  
